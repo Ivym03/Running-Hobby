@@ -11,7 +11,7 @@
     </style>
 </head>
 <body>
-    <h1>Jane Smith</h1>
+    <h1>Ivy Martin</h1>
     <img src="{{ url_for('static', filename='running_picture.jpg') }}" alt="Ivy Martin Running" style="border-radius: 50%; max-width: 200px; margin: 20px;">
     
     <h2>Passion for Running</h2>
