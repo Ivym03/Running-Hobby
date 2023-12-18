@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Running Journey</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jane Smith</h1>
+    <img src="{{ url_for('static', filename='running_picture.jpg') }}" alt="Ivy Martin Running" style="border-radius: 50%; max-width: 200px; margin: 20px;">
+    
+    <h2>Passion for Running</h2>
+    <p>Running has become an integral part of my life, providing not only physical benefits but also mental clarity and a sense of accomplishment.</p>
+    
+    <p>Discover more about running on <a href="https://www.oncloudrunning.com">OnCloud Running</a>.</p>
+    
+    <ol>
+        <li>Running Watch</li>
+        <li>Tennis Shoes</li>
+        <li>Running Pouch</li>
+        <li>KT Tape</li>
+    </ol>
+    
+    <img src="{{ url_for('static', filename='running_gear.jpg') }}" alt="Running Gear" style="max-width: 100%; margin: 20px;">
+</body>
+</html>
